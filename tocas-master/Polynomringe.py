@@ -61,7 +61,39 @@ class Polynomring(Ring):
         return PolynomringElement(RingTupel(tup),self)
 
 
-    
+
+
+    @staticmethod
+    def _lc(koeffizienten):
+
+        from AbstrakteRinge import Ganzzahlring
+        null = Ganzzahlring().null
+
+        for j in reversed(range(koeffizienten.laenge)):
+            if koeffizienten[j] != 0:
+                a = koeffizienten[j]
+                c = j
+                break
+        return a, c
+
+    @staticmethod
+    def ext_ggt(numerator, denominator):
+        q = PolynomringElement([0], numerator.ring)
+        r = numerator
+        d = denominator.grad
+        c, pos1 = Polynomring._lc(denominator.koeffizienten)
+        while r.grad >= d:
+            s, pos2 = Polynomring._lc(r.koeffizienten)
+            div = int(s/c)
+            pos3 = pos2 - pos1
+            coeff = list(map(lambda x: div* x, [1 if i == pos3 else 0 for i in range(pos3+1)]))
+            poly = RingTupel(coeff)
+            s = PolynomringElement(poly, numerator.ring)
+            q = q + s
+            r = r - (s*denominator)
+        return q, r
+
+
 class PolynomringElement(RingElement):
 
     """Instanziierbare Klassen"""
@@ -75,7 +107,7 @@ class PolynomringElement(RingElement):
         self.ring = polyring
         self.basisring = polyring.basisring
 
-        if isinstance(koeffizienten,RingElement):
+        if isinstance(koeffizienten, RingElement):
         # Es gibt hier zwei Fälle:
         # Das Element ist aus dem Basisring.
         # Dann wird es eine Konstante. Die Koeffizienten des neuen
@@ -254,6 +286,5 @@ class PolynomringElement(RingElement):
         else:                
             return PolynomringElement(element.invers(),self.ring)
         
-        
-        
-    
+
+

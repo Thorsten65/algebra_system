@@ -433,7 +433,6 @@ class Ganzzahlring(Ring):
  
 
     def element(self,ele):
-
         if not type(ele) == int:
             raise TypeError("Element ist keine ganze Zahl.")
         return ele
@@ -562,7 +561,6 @@ class RingTupel(EinfrierbaresObjekt):
             
         self.laenge = len(koeffizienten)
         self.koeffizienten = [] # Hier kommen dann die Koeffizienten rein.
-        
         # Wenn die Länge gleich Null ist, ist Schluss.
         if self.laenge == 0:
             if self.ring == None:
@@ -591,8 +589,6 @@ class RingTupel(EinfrierbaresObjekt):
             # Jetzt können die Koeffizienten in diesen Ring abgebildet werden.
             for i in range(0,self.laenge):
                 self.koeffizienten.append(self.ring.element(koeffizienten[i]))
-
-
         self._frier()
 
         

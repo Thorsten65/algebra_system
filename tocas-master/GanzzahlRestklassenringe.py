@@ -93,15 +93,11 @@ class GanzzahlRestklassenringElement(RingElement):
             return False
         return self.wert == other.wert
 
-    
-
     # Jetzt kommt das Überladen / Definieren der arithmetischen Operatoren
 
-    
     def __neg__(self):
 
         return GanzzahlRestklassenringElement(-self.wert, self.ring)
-
 
     def __radd__(self,other):
         
@@ -111,8 +107,6 @@ class GanzzahlRestklassenringElement(RingElement):
             return GanzzahlRestklassenringElement(self.wert+other,self.ring)
 
         return GanzzahlRestklassenringElement(self.wert+other.wert,self.ring)
-
-        
 
     def __rmul__(self,other):
  
@@ -159,8 +153,6 @@ class GanzzahlRestklassenringElement(RingElement):
             c = c + a
 
         return c
-
-
 
     def invers(self):
 
