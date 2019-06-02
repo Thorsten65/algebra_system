@@ -61,8 +61,6 @@ class Polynomring(Ring):
         return PolynomringElement(RingTupel(tup),self)
 
 
-
-
     @staticmethod
     def _lc(koeffizienten):
 

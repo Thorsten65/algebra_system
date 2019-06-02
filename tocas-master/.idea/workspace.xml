@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="218bb764-f404-48f7-8eb0-280826b3f4b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstrakteRinge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstrakteRinge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BruchzahlRing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../BruchzahlRing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GanzzahlRestklassenringe.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GanzzahlRestklassenringe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polynomringe.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Polynomringe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Tocas-Beispiel.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/Tocas-Beispiel.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Polynomringe.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Polynomringe.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,90 +25,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46904442">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../AbstrakteRinge.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2000">
-                  <caret line="435" selection-start-line="435" selection-end-line="435" />
-                  <folding>
-                    <element signature="e#59#100#0" />
-                    <element signature="e#793#986#0" />
-                    <element signature="e#1120#1393#0" />
-                    <element signature="e#1120#1378#1" />
-                    <element signature="e#2493#2862#0" />
-                    <element signature="e#2493#2824#1" />
-                    <element signature="e#3038#3183#0" />
-                    <element signature="e#3234#3250#0" />
-                    <element signature="e#3308#3319#0" />
-                    <element signature="e#3380#3384#0" />
-                    <element signature="e#3426#3703#0" />
-                    <element signature="e#3426#3659#1" />
-                    <element signature="e#3745#4315#0" />
-                    <element signature="e#3745#3837#1" />
-                    <element signature="e#4356#4523#0" />
-                    <element signature="e#4356#4481#1" />
-                    <element signature="e#4573#4686#0" />
-                    <element signature="e#4573#4646#1" />
-                    <element signature="e#4738#5473#0" />
-                    <element signature="e#4738#5200#1" />
-                    <element signature="e#5539#5764#0" />
-                    <element signature="e#5823#5948#0" />
-                    <element signature="e#5823#5934#1" />
-                    <element signature="e#6427#6575#0" />
-                    <element signature="e#6468#6575#0" />
-                    <element signature="e#7144#7212#0" />
-                    <element signature="e#7805#7879#0" />
-                    <element signature="e#8159#8407#0" />
-                    <element signature="e#8159#8326#1" />
-                    <element signature="e#8474#9025#0" />
-                    <element signature="e#8474#8733#1" />
-                    <element signature="e#9095#9299#0" />
-                    <element signature="e#9095#9151#1" />
-                    <element signature="e#9194#9299#0" />
-                    <element signature="e#9332#9750#0" />
-                    <element signature="e#9332#9520#1" />
-                    <element signature="e#9685#9737#0" />
-                    <element signature="e#10067#10077#0" />
-                    <element signature="e#15574#16024#0" />
-                    <element signature="e#15722#15965#0" />
-                    <element signature="e#16092#16216#0" />
-                    <element signature="e#16261#16542#0" />
-                    <element signature="e#16601#17068#0" />
-                    <element signature="e#17115#17126#0" />
-                    <element signature="e#17176#17395#0" />
-                    <element signature="e#17949#18058#0" />
-                    <element signature="e#19443#19917#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../Polynomringe.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="440">
-                  <caret line="86" selection-start-line="86" selection-end-line="86" />
-                  <folding>
-                    <element signature="e#659#731#0" />
-                    <element signature="e#817#886#0" />
-                    <element signature="e#930#1035#0" />
-                    <element signature="e#1157#1495#0" />
-                    <element signature="e#1299#1309#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../AbstrakteRinge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,7 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -135,14 +56,15 @@
         <option value="$PROJECT_DIR$/../GanzzahlRestklassenringe.py" />
         <option value="$PROJECT_DIR$/../AbstrakteRinge.py" />
         <option value="$PROJECT_DIR$/../Polynomringe.py" />
+        <option value="$PROJECT_DIR$/Homomorphismen.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="413" />
-    <option name="y" value="485" />
-    <option name="width" value="2342" />
-    <option name="height" value="2110" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="1920" />
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="2133" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,6 +72,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +84,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,18 +117,20 @@
       <workItem from="1556995207532" duration="3342000" />
       <workItem from="1557002387534" duration="19000" />
       <workItem from="1557057062734" duration="5200000" />
-      <workItem from="1558356974345" duration="18549000" />
+      <workItem from="1558356974345" duration="19151000" />
+      <workItem from="1558719694486" duration="998000" />
+      <workItem from="1559474883642" duration="212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32973000" />
+    <option name="totallyTimeSpent" value="34785000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="3840" height="2133" extended-state="6" />
+    <frame x="1920" y="27" width="1920" height="2133" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2327359" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2950907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -233,104 +157,44 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../BruchzahlRing.ipynb">
+    <entry file="file://$PROJECT_DIR$/../../AbstrakterAnfang.py" />
+    <entry file="file://$PROJECT_DIR$/../../BruchzahlRing.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="1" />
+          <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AbstrakterAnfang.py">
+    <entry file="file://$PROJECT_DIR$/../../BruchzahlRing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="49" column="73" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
+        <state relative-caret-position="60">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BruchzahlRing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../../AbstrakterAnfang.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../GanzzahlRestklassenringe.py">
+    <entry file="file://$PROJECT_DIR$/../../Polynomringe.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Homomorphismen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1529">
-          <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
+        <state relative-caret-position="520">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AbstrakteRinge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="435" selection-start-line="435" selection-end-line="435" />
-          <folding>
-            <element signature="e#59#100#0" />
-            <element signature="e#793#986#0" />
-            <element signature="e#1120#1393#0" />
-            <element signature="e#1120#1378#1" />
-            <element signature="e#2493#2862#0" />
-            <element signature="e#2493#2824#1" />
-            <element signature="e#3038#3183#0" />
-            <element signature="e#3234#3250#0" />
-            <element signature="e#3308#3319#0" />
-            <element signature="e#3380#3384#0" />
-            <element signature="e#3426#3703#0" />
-            <element signature="e#3426#3659#1" />
-            <element signature="e#3745#4315#0" />
-            <element signature="e#3745#3837#1" />
-            <element signature="e#4356#4523#0" />
-            <element signature="e#4356#4481#1" />
-            <element signature="e#4573#4686#0" />
-            <element signature="e#4573#4646#1" />
-            <element signature="e#4738#5473#0" />
-            <element signature="e#4738#5200#1" />
-            <element signature="e#5539#5764#0" />
-            <element signature="e#5823#5948#0" />
-            <element signature="e#5823#5934#1" />
-            <element signature="e#6427#6575#0" />
-            <element signature="e#6468#6575#0" />
-            <element signature="e#7144#7212#0" />
-            <element signature="e#7805#7879#0" />
-            <element signature="e#8159#8407#0" />
-            <element signature="e#8159#8326#1" />
-            <element signature="e#8474#9025#0" />
-            <element signature="e#8474#8733#1" />
-            <element signature="e#9095#9299#0" />
-            <element signature="e#9095#9151#1" />
-            <element signature="e#9194#9299#0" />
-            <element signature="e#9332#9750#0" />
-            <element signature="e#9332#9520#1" />
-            <element signature="e#9685#9737#0" />
-            <element signature="e#10067#10077#0" />
-            <element signature="e#15574#16024#0" />
-            <element signature="e#15722#15965#0" />
-            <element signature="e#16092#16216#0" />
-            <element signature="e#16261#16542#0" />
-            <element signature="e#16601#17068#0" />
-            <element signature="e#17115#17126#0" />
-            <element signature="e#17176#17395#0" />
-            <element signature="e#17949#18058#0" />
-            <element signature="e#19443#19917#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../../GanzzahlRestklassenringe.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Polynomringe.py">
+    <entry file="file://$PROJECT_DIR$/../../AbstrakteRinge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#659#731#0" />
-            <element signature="e#817#886#0" />
-            <element signature="e#930#1035#0" />
-            <element signature="e#1157#1495#0" />
-            <element signature="e#1299#1309#0" />
-          </folding>
+        <state relative-caret-position="580">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
         </state>
       </provider>
     </entry>
