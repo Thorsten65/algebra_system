@@ -1,0 +1,16 @@
+Kurzanleitung
+-------------
+
+1. Installieren Sie einen guten python3-Interpreter. Ich empfehle ipython vom jupyter-Projekt.
+
+2. Starten Sie diesen von diesem Verzeichnis aus.
+
+3. Geben Sie
+
+  from Tocas import *
+
+  ein.
+
+
+Los geht's!
+
