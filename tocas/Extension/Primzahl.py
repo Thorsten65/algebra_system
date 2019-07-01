@@ -126,16 +126,13 @@ def rabin_test_reducible(polynom):
     from Tocas import PolynomringElement
     from .PolynomRestklassenring import PolynomRestklassenringElement
 
-    if not isinstance(polynom, PolynomringElement):
-        raise TypeError("Nur Polynome erlaubt!!!")
-
     if not isinstance(polynom.ring.basisring, GanzzahlRestklassenring):
         raise TypeError("Nur GanzahlRestklassenring als Basisring erlaubt.") 
 
     try:
         q = polynom.ring.basisring.modulus
     except AttributeError:
-        raise Attribute("Der Rabit-Test braucht ein Galoi-Felt als Basisring.")
+        raise Attribute("Der Rabit-Test braucht ein Galoi-Feld als Basisring.")
 
     n = polynom.grad
     x = PolynomringElement([0, 1], polynom.ring)
@@ -153,9 +150,10 @@ def rabin_test_reducible(polynom):
         print(x, q, i, f)
         h = (((x**q)**i) - x ) % f
         print(h)
-        g = _polynomring_ext_ggt(f.ring, f, h)
-        print("Erstes G: ", g)
-        if g[2] != f.ring.eins:
+        a, u, v = _polynomring_ext_ggt(f.ring, f, h)
+        ggt = a*u + h*v 
+        print("Erstes G: ", ggt)
+        if ggt != f.ring.eins:
             return True
 
     g = ((((x) ** q) ** n) - x) % f
@@ -191,7 +189,7 @@ def is_prime_field(p, values, modulus):
         return True
     return False
 
-def is_prime_field(p, values, modulus, polynom):
+def is_prime_field_2(p, values, modulus, polynom):
     pass
 
 def endlicher_koerper(p: int, n: int):
@@ -218,8 +216,7 @@ def endlicher_koerper(p: int, n: int):
         for ele in ele_list:
             poly = PolynomringElement(ele, P)
             PolyRest.elements.append(PolynomRestklassenringElement(poly, PolyRest))
-        if is_prime_field(p, )
-            return PolyRest
+        return PolyRest
 
     """
     is_prime_field = check_is_prime_field()
