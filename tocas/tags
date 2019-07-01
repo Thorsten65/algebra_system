@@ -1,0 +1,183 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABC	AbstrakterAnfang.py	/^from abc import ABC, abstractmethod$/;"	i
+Bruchzahlring	Extension/Bruchzahlring.py	/^class Bruchzahlring(Ring):$/;"	c
+BruchzahlringElement	Extension/Bruchzahlring.py	/^class BruchzahlringElement(RingElement):$/;"	c
+EinfrierbaresObjekt	AbstrakterAnfang.py	/^class EinfrierbaresObjekt(MeinABCObjekt):$/;"	c
+Extension	Extension/Primzahl.py	/^import Extension.polynomring_extension$/;"	i
+GanzzahlRestklassenring	Extension/PolynomRestklassenring.py	/^from Tocas import Ring, RingElement, Polynomring, PolynomringElement, RingTupel, GanzzahlRestklassenring$/;"	i
+GanzzahlRestklassenring	Extension/Primzahl.py	/^from Tocas import Ganzzahlring, Polynomring, GanzzahlRestklassenring$/;"	i
+GanzzahlRestklassenring	GanzzahlRestklassenringe.py	/^class GanzzahlRestklassenring(Ring):$/;"	c
+GanzzahlRestklassenringElement	GanzzahlRestklassenringe.py	/^class GanzzahlRestklassenringElement(RingElement):$/;"	c
+Ganzzahlring	AbstrakteRinge.py	/^class Ganzzahlring(Ring):$/;"	c
+Ganzzahlring	Extension/Bruchzahlring.py	/^from Tocas import Ring, RingElement, Ganzzahlring$/;"	i
+Ganzzahlring	Extension/Primzahl.py	/^from Tocas import Ganzzahlring, Polynomring, GanzzahlRestklassenring$/;"	i
+Homomorphismus	Homomorphismen.py	/^class Homomorphismus(EinfrierbaresObjekt):$/;"	c
+InvertierungsFehler	AbstrakteRinge.py	/^class InvertierungsFehler(ArithmeticError):$/;"	c
+KringelHomomorphismus	Homomorphismen.py	/^class KringelHomomorphismus(Homomorphismus):$/;"	c
+MeinABCObjekt	AbstrakterAnfang.py	/^class MeinABCObjekt(ABC):$/;"	c
+PolynomRestklassenring	Extension/PolynomRestklassenring.py	/^class PolynomRestklassenring(Ring):$/;"	c
+PolynomRestklassenring	Extension/Primzahl.py	/^    from Extension.PolynomRestklassenring import PolynomRestklassenring$/;"	i
+PolynomRestklassenringElement	Extension/PolynomRestklassenring.py	/^class PolynomRestklassenringElement(RingElement):$/;"	c
+Polynomring	Extension/PolynomRestklassenring.py	/^from Tocas import Ring, RingElement, Polynomring, PolynomringElement, RingTupel, GanzzahlRestklassenring$/;"	i
+Polynomring	Extension/Primzahl.py	/^from Tocas import Ganzzahlring, Polynomring, GanzzahlRestklassenring$/;"	i
+Polynomring	Extension/polynomring_extension.py	/^from Tocas import Polynomring, PolynomringElement$/;"	i
+Polynomring	Polynomringe.py	/^class Polynomring(Ring):$/;"	c
+PolynomringElement	Extension/PolynomRestklassenring.py	/^from Tocas import Ring, RingElement, Polynomring, PolynomringElement, RingTupel, GanzzahlRestklassenring$/;"	i
+PolynomringElement	Extension/polynomring_extension.py	/^from Tocas import Polynomring, PolynomringElement$/;"	i
+PolynomringElement	Polynomringe.py	/^class PolynomringElement(RingElement):$/;"	c
+Q	Extension/Bruchzahlring.py	/^Q = Bruchzahlring()$/;"	v
+Ring	AbstrakteRinge.py	/^class Ring(EinfrierbaresObjekt):$/;"	c
+Ring	Extension/Bruchzahlring.py	/^from Tocas import Ring, RingElement, Ganzzahlring$/;"	i
+Ring	Extension/PolynomRestklassenring.py	/^from Tocas import Ring, RingElement, Polynomring, PolynomringElement, RingTupel, GanzzahlRestklassenring$/;"	i
+RingElement	AbstrakteRinge.py	/^class RingElement(EinfrierbaresObjekt):$/;"	c
+RingElement	Extension/Bruchzahlring.py	/^from Tocas import Ring, RingElement, Ganzzahlring$/;"	i
+RingElement	Extension/PolynomRestklassenring.py	/^from Tocas import Ring, RingElement, Polynomring, PolynomringElement, RingTupel, GanzzahlRestklassenring$/;"	i
+RingTupel	AbstrakteRinge.py	/^class RingTupel(EinfrierbaresObjekt):$/;"	c
+RingTupel	Extension/PolynomRestklassenring.py	/^from Tocas import Ring, RingElement, Polynomring, PolynomringElement, RingTupel, GanzzahlRestklassenring$/;"	i
+Z	AbstrakteRinge.py	/^Z = Ganzzahlring()$/;"	v
+__add__	AbstrakteRinge.py	/^    def __add__(self,other):$/;"	m	class:RingElement	file:
+__add__	AbstrakteRinge.py	/^    def __add__(self,other):$/;"	m	class:RingTupel	file:
+__add__	Extension/Bruchzahlring.py	/^    def __add__(self, other):$/;"	m	class:BruchzahlringElement	file:
+__add__	Extension/PolynomRestklassenring.py	/^    def __add__(self, other):$/;"	m	class:PolynomRestklassenringElement	file:
+__call__	AbstrakteRinge.py	/^    def __call__(self,*info):$/;"	m	class:Ring	file:
+__call__	Homomorphismen.py	/^    def __call__(self,other):$/;"	m	class:Homomorphismus	file:
+__eq__	AbstrakteRinge.py	/^    def __eq__(self,other):$/;"	m	class:Ring	file:
+__eq__	AbstrakteRinge.py	/^    def __eq__(self,other):$/;"	m	class:RingElement	file:
+__eq__	AbstrakteRinge.py	/^    def __eq__(self,other):$/;"	m	class:RingTupel	file:
+__eq__	Extension/Bruchzahlring.py	/^    def __eq__(self, other):$/;"	m	class:Bruchzahlring	file:
+__eq__	Extension/Bruchzahlring.py	/^    def __eq__(self, other):$/;"	m	class:BruchzahlringElement	file:
+__eq__	Extension/PolynomRestklassenring.py	/^    def __eq__(self, other):$/;"	m	class:PolynomRestklassenring	file:
+__eq__	Extension/PolynomRestklassenring.py	/^    def __eq__(self, other):$/;"	m	class:PolynomRestklassenringElement	file:
+__eq__	GanzzahlRestklassenringe.py	/^    def __eq__(self,other):$/;"	m	class:GanzzahlRestklassenring	file:
+__eq__	GanzzahlRestklassenringe.py	/^    def __eq__(self,other):$/;"	m	class:GanzzahlRestklassenringElement	file:
+__eq__	Homomorphismen.py	/^    def __eq__(self,other):$/;"	m	class:Homomorphismus	file:
+__eq__	Homomorphismen.py	/^    def __eq__(self,other):$/;"	m	class:KringelHomomorphismus	file:
+__eq__	Polynomringe.py	/^    def __eq__(self,other):$/;"	m	class:Polynomring	file:
+__eq__	Polynomringe.py	/^    def __eq__(self,other):$/;"	m	class:PolynomringElement	file:
+__getitem__	AbstrakteRinge.py	/^    def __getitem__(self,index):$/;"	m	class:RingTupel	file:
+__init__	AbstrakteRinge.py	/^    def __init__(self): $/;"	m	class:Ganzzahlring
+__init__	AbstrakteRinge.py	/^    def __init__(self,eingabe1,eingabe2 = None, ring = None):$/;"	m	class:RingTupel
+__init__	AbstrakteRinge.py	/^    def __init__(self,element):$/;"	m	class:InvertierungsFehler
+__init__	AbstrakteRinge.py	/^    def __init__(self,elementinfo,ringinfo,zusatz=None):$/;"	m	class:RingElement
+__init__	AbstrakteRinge.py	/^    def __init__(self,info):$/;"	m	class:Ring
+__init__	AbstrakterAnfang.py	/^    def __init__(self):$/;"	m	class:EinfrierbaresObjekt
+__init__	AbstrakterAnfang.py	/^    def __init__(self):$/;"	m	class:MeinABCObjekt
+__init__	Extension/Bruchzahlring.py	/^    def __init__(self):$/;"	m	class:Bruchzahlring
+__init__	Extension/Bruchzahlring.py	/^    def __init__(self, a, b, ring=None):$/;"	m	class:BruchzahlringElement
+__init__	Extension/PolynomRestklassenring.py	/^    def __init__(self, f: PolynomringElement):$/;"	m	class:PolynomRestklassenring
+__init__	Extension/PolynomRestklassenring.py	/^    def __init__(self, p, r: PolynomRestklassenring):$/;"	m	class:PolynomRestklassenringElement
+__init__	GanzzahlRestklassenringe.py	/^    def __init__(self,a,n):$/;"	m	class:GanzzahlRestklassenringElement
+__init__	GanzzahlRestklassenringe.py	/^    def __init__(self,modulus : int):$/;"	m	class:GanzzahlRestklassenring
+__init__	Homomorphismen.py	/^    def __init__ (self,quelle,ziel,element = None,basishom = None):$/;"	m	class:Homomorphismus
+__init__	Homomorphismen.py	/^    def __init__(self,hom1,hom2):$/;"	m	class:KringelHomomorphismus
+__init__	Polynomringe.py	/^    def __init__(self,R : Ring,variablenname = "x"):$/;"	m	class:Polynomring
+__init__	Polynomringe.py	/^    def __init__(self,koeffizienten,polyring : Ring):$/;"	m	class:PolynomringElement
+__mul__	AbstrakteRinge.py	/^    def __mul__(self,other):$/;"	m	class:RingElement	file:
+__mul__	Homomorphismen.py	/^    def __mul__(self,other):$/;"	m	class:Homomorphismus	file:
+__neg__	AbstrakteRinge.py	/^    def __neg__(self):$/;"	m	class:RingElement	file:
+__neg__	AbstrakteRinge.py	/^    def __neg__(self):$/;"	m	class:RingTupel	file:
+__neg__	Extension/Bruchzahlring.py	/^    def __neg__(self):$/;"	m	class:BruchzahlringElement	file:
+__neg__	Extension/PolynomRestklassenring.py	/^    def __neg__(self):$/;"	m	class:PolynomRestklassenringElement	file:
+__neg__	GanzzahlRestklassenringe.py	/^    def __neg__(self):$/;"	m	class:GanzzahlRestklassenringElement	file:
+__neg__	Polynomringe.py	/^    def __neg__(self):$/;"	m	class:PolynomringElement	file:
+__pos__	AbstrakteRinge.py	/^    def __pos__(self):$/;"	m	class:RingElement	file:
+__pos__	AbstrakteRinge.py	/^    def __pos__(self):$/;"	m	class:RingTupel	file:
+__pow__	AbstrakteRinge.py	/^    def __pow__(self,exponent):$/;"	m	class:RingElement	file:
+__radd__	AbstrakteRinge.py	/^    def __radd__(self,other):$/;"	m	class:RingElement	file:
+__radd__	GanzzahlRestklassenringe.py	/^    def __radd__(self,other):$/;"	m	class:GanzzahlRestklassenringElement	file:
+__radd__	Polynomringe.py	/^    def __radd__(self,other):$/;"	m	class:PolynomringElement	file:
+__repr__	AbstrakterAnfang.py	/^    def __repr__(self):$/;"	m	class:MeinABCObjekt	file:
+__rmul__	AbstrakteRinge.py	/^    def __rmul__(self,other):$/;"	m	class:RingElement	file:
+__rmul__	AbstrakteRinge.py	/^    def __rmul__(self,other):$/;"	m	class:RingTupel	file:
+__rmul__	Extension/Bruchzahlring.py	/^    def __rmul__(self, other):$/;"	m	class:BruchzahlringElement	file:
+__rmul__	Extension/PolynomRestklassenring.py	/^    def __rmul__(self, other):$/;"	m	class:PolynomRestklassenringElement	file:
+__rmul__	GanzzahlRestklassenringe.py	/^    def __rmul__(self,other):$/;"	m	class:GanzzahlRestklassenringElement	file:
+__rmul__	Polynomringe.py	/^    def __rmul__(self,other):$/;"	m	class:PolynomringElement	file:
+__rsub__	AbstrakteRinge.py	/^    def __rsub__(self,other):$/;"	m	class:RingElement	file:
+__rtruediv__	AbstrakteRinge.py	/^    def __rtruediv__(self,other):$/;"	m	class:RingElement	file:
+__setattr__	AbstrakterAnfang.py	/^    def __setattr__(self, key, value):$/;"	m	class:EinfrierbaresObjekt	file:
+__setitem__	AbstrakteRinge.py	/^    def __setitem__(self,index,wert):$/;"	m	class:RingTupel	file:
+__str__	AbstrakteRinge.py	/^    def __str__(self):$/;"	m	class:Ganzzahlring	file:
+__str__	AbstrakteRinge.py	/^    def __str__(self):$/;"	m	class:RingElement	file:
+__str__	AbstrakteRinge.py	/^    def __str__(self):$/;"	m	class:RingTupel	file:
+__str__	AbstrakterAnfang.py	/^    def __str__(self):$/;"	m	class:MeinABCObjekt	file:
+__str__	Extension/Bruchzahlring.py	/^    def __str__(self): $/;"	m	class:Bruchzahlring	file:
+__str__	Extension/Bruchzahlring.py	/^    def __str__(self):$/;"	m	class:BruchzahlringElement	file:
+__str__	Extension/PolynomRestklassenring.py	/^    def __str__(self):$/;"	m	class:PolynomRestklassenring	file:
+__str__	Extension/PolynomRestklassenring.py	/^    def __str__(self):$/;"	m	class:PolynomRestklassenringElement	file:
+__str__	GanzzahlRestklassenringe.py	/^    def __str__(self):$/;"	m	class:GanzzahlRestklassenring	file:
+__str__	Homomorphismen.py	/^    def __str__(self):$/;"	m	class:Homomorphismus	file:
+__str__	Homomorphismen.py	/^    def __str__(self):$/;"	m	class:KringelHomomorphismus	file:
+__str__	Polynomringe.py	/^    def __str__(self):$/;"	m	class:Polynomring	file:
+__sub__	AbstrakteRinge.py	/^    def __sub__(self,other):$/;"	m	class:RingElement	file:
+__sub__	AbstrakteRinge.py	/^    def __sub__(self,other):$/;"	m	class:RingTupel	file:
+__truediv__	AbstrakteRinge.py	/^    def __truediv__(self,other):$/;"	m	class:RingElement	file:
+_frier	AbstrakterAnfang.py	/^    def _frier(self):$/;"	m	class:EinfrierbaresObjekt
+_gefroren	AbstrakterAnfang.py	/^    _gefroren = False$/;"	v	class:EinfrierbaresObjekt
+_ord	Extension/Primzahl.py	/^def _ord(r, n):$/;"	f
+_phi	Extension/Primzahl.py	/^def _phi(r):$/;"	f
+_polynom_div	Extension/polynomring_extension.py	/^def _polynom_div(a: PolynomringElement, b: PolynomringElement):$/;"	f
+_polynom_floordiv	Extension/polynomring_extension.py	/^def _polynom_floordiv(a: PolynomringElement, b: PolynomringElement):$/;"	f
+_polynom_mod	Extension/polynomring_extension.py	/^def _polynom_mod(a: PolynomringElement, b: PolynomringElement):$/;"	f
+_polynomring_ExtGGT	Extension/polynomring_extension.py	/^def _polynomring_ExtGGT(a: PolynomringElement, b: PolynomringElement):$/;"	f
+_polynomring_ext_ggt	Extension/polynomring_extension.py	/^def _polynomring_ext_ggt(self: Polynomring, a: PolynomringElement, b: PolynomringElement):$/;"	f
+_tau	AbstrakterAnfang.py	/^    def _tau(self):$/;"	m	class:EinfrierbaresObjekt
+abstractmethod	AbstrakterAnfang.py	/^from abc import ABC, abstractmethod$/;"	i
+aks	Extension/Primzahl.py	/^def aks(n):$/;"	f
+anwenden	Homomorphismen.py	/^    def anwenden(self,e):$/;"	m	class:KringelHomomorphismus
+auslaufende_nullen_loeschen	AbstrakteRinge.py	/^    def auslaufende_nullen_loeschen(self):$/;"	m	class:RingTupel
+copy	Extension/polynomring_extension.py	/^import copy$/;"	i
+deepcopy	AbstrakteRinge.py	/^from copy import deepcopy$/;"	i
+drucke_element	AbstrakteRinge.py	/^    def drucke_element(self):$/;"	m	class:RingElement
+drucke_element	Extension/Bruchzahlring.py	/^    def drucke_element(self):$/;"	m	class:BruchzahlringElement
+drucke_element	Extension/PolynomRestklassenring.py	/^    def drucke_element(self):$/;"	m	class:PolynomRestklassenringElement
+drucke_element	GanzzahlRestklassenringe.py	/^    def drucke_element(self):$/;"	m	class:GanzzahlRestklassenringElement
+drucke_element	Polynomringe.py	/^    def drucke_element(self):$/;"	m	class:PolynomringElement
+drucke_element_mit_klammern	AbstrakteRinge.py	/^    def drucke_element_mit_klammern(self):$/;"	m	class:RingElement
+drucke_element_mit_klammern	Extension/Bruchzahlring.py	/^    def drucke_element_mit_klammern(self):$/;"	m	class:BruchzahlringElement
+drucke_element_mit_klammern	Polynomringe.py	/^    def drucke_element_mit_klammern(self):$/;"	m	class:PolynomringElement
+element	AbstrakteRinge.py	/^    def element(self,*info):$/;"	m	class:Ring
+element	AbstrakteRinge.py	/^    def element(self,ele):$/;"	m	class:Ganzzahlring
+element	Extension/Bruchzahlring.py	/^    def element(self, p, q=1):$/;"	m	class:Bruchzahlring
+element	Extension/PolynomRestklassenring.py	/^    def element(self, a):$/;"	m	class:PolynomRestklassenring
+element	GanzzahlRestklassenringe.py	/^    def element(self,a):$/;"	m	class:GanzzahlRestklassenring
+element	Polynomringe.py	/^    def element(self,*info):$/;"	m	class:Polynomring
+ext_ggT	AbstrakteRinge.py	/^    def ext_ggT(a, b):$/;"	m	class:Ganzzahlring
+homfunktion	Homomorphismen.py	/^                def homfunktion(e):$/;"	f	function:Homomorphismus.__init__.homfunktion
+homfunktion	Homomorphismen.py	/^            def homfunktion(e):$/;"	f	function:Homomorphismus.__init__
+intmult	AbstrakteRinge.py	/^    def intmult(n,ele):$/;"	m	class:RingElement
+invers	AbstrakteRinge.py	/^    def invers(self):$/;"	m	class:RingElement
+invers	Extension/Bruchzahlring.py	/^    def invers(self):$/;"	m	class:BruchzahlringElement
+invers	Extension/PolynomRestklassenring.py	/^    def invers(self):$/;"	m	class:PolynomRestklassenringElement
+invers	GanzzahlRestklassenringe.py	/^    def invers(self):$/;"	m	class:GanzzahlRestklassenringElement
+invers	Polynomringe.py	/^    def invers(self):$/;"	m	class:PolynomringElement
+koeffizient	Polynomringe.py	/^    def koeffizient(self,i):$/;"	m	class:PolynomringElement
+math	Extension/Primzahl.py	/^import math$/;"	i
+math	Extension/polynomring_extension.py	/^import math$/;"	i
+miller_rabin	Extension/Primzahl.py	/^def miller_rabin(n, k=40):$/;"	f
+module_path	Extension/project_path.py	/^module_path = os.path.abspath(os.path.join(os.pardir, os.pardir))$/;"	v
+module_path	Extension/tests/project_path.py	/^module_path = os.path.abspath(os.path.join(os.pardir, os.pardir))$/;"	v
+monom	Polynomringe.py	/^    def monom (self,exp):$/;"	m	class:Polynomring
+os	Extension/project_path.py	/^import os$/;"	i
+os	Extension/tests/project_path.py	/^import os$/;"	i
+polynomring_extension	Extension/PolynomRestklassenring.py	/^from Extension import polynomring_extension $/;"	i
+polynomring_extension	Extension/Primzahl.py	/^import Extension.polynomring_extension$/;"	i
+randint	GanzzahlRestklassenringe.py	/^from random import randint$/;"	i
+random	Extension/PolynomRestklassenring.py	/^    def random(self):$/;"	m	class:PolynomRestklassenring
+random	Extension/PolynomRestklassenring.py	/^import random$/;"	i
+random	Extension/Primzahl.py	/^import random$/;"	i
+ring	AbstrakteRinge.py	/^    def ring(ringelement):$/;"	m	class:RingElement
+sys	Extension/project_path.py	/^import sys$/;"	i
+sys	Extension/tests/project_path.py	/^import sys$/;"	i
+test	AbstrakteRinge.py	/^    def test(testelement):$/;"	m	class:RingElement
+tupel	AbstrakteRinge.py	/^    def tupel(self,*koeffizienten):$/;"	m	class:Ring
+typ_beschreibung	AbstrakterAnfang.py	/^def typ_beschreibung(objekt):$/;"	f
+umgebung	AbstrakteRinge.py	/^    def umgebung(self):$/;"	m	class:RingElement
+zufaellig	GanzzahlRestklassenringe.py	/^    def zufaellig(self):$/;"	m	class:GanzzahlRestklassenring
+zusammenfuegen	AbstrakteRinge.py	/^    def zusammenfuegen(ringtupel1,ringtupel2):$/;"	m	class:RingTupel
+zwei_adisch	AbstrakteRinge.py	/^def zwei_adisch(a):$/;"	f
